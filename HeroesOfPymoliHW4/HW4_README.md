@@ -773,5 +773,14 @@ itemAsys_df.sort_values('Total Purchase Value', ascending=False).head()
 
 
 ```python
+#Observable Trends:
+
+#Generally, gamers are young (~58% below the age of 24).
+#This same age group spends the third most on average and are responsible for the highest total revenue received from in game purchases.
+#On average, males and females are willing to spend about the same amount of money on in game purchases(Males willing to spend $3.03 on average while Females about $3.04). Men only account for higher total revenue due to their population size within the game.
+```
+
+
+```python
 
 ```
