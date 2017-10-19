@@ -763,5 +763,14 @@ plt.show()
 
 
 ```python
+#    Analysis
+# 1. Average fares tend to be lower in urban areas where there are more drivers. Urban areas account for a significant portion of Pyber drivers and Pyber rides. 
+# 2. The higher average fares occur in rural areas where there exist lower populations and longer distances covered by Pyber drivers.
+# 3. 62% of fare revenue comes from Urban areas. All-in-all, Pyber's business relies signifantly on urban areas. The high driver counts with the highly populated nature of urban areas means there are more rides, more customers, and thus more revenue. 
+#        The lower average revenue in urban areas can be explained in that Pyber drivers cover smaller distances in urban places and thus lead to lower average fares. 
+```
+
+
+```python
 
 ```
