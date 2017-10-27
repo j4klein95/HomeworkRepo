@@ -15,7 +15,7 @@ import random as rand
 
 ```python
 #create variables for your credentials and queries
-api_key = "019d3ce270b6a051b0a058b9843b4e7e"
+api_key = "
 cities = []
 weather_data = []
 
@@ -58,7 +58,7 @@ len(cities)
 
 
 ```python
-#loop through the list 
+#loop through the list
 for city in cities:
     response = req.get(query_url + city).json()
     weather_data.append(response)
@@ -127,7 +127,7 @@ wind_spd = [data.get('wind').get('speed')for data in weather_data]
     #except:
         #continue
 
-        
+
 full_df = pd.DataFrame(
 {
     "City Name": city_name,
@@ -648,7 +648,7 @@ plt.show()
 ```python
 #Analysis:
 #Wind speeds seem to ramp up in cities as the data moves farther and farther away from the equator.
-#Max temperature appears to increase as we move towards cities closer to the equator. 
-#It is tough to discern anything significant from the the cloudiness and humid scatter plots. Someone far more versed in geography would probably be better at explaining the behavior 
+#Max temperature appears to increase as we move towards cities closer to the equator.
+#It is tough to discern anything significant from the the cloudiness and humid scatter plots. Someone far more versed in geography would probably be better at explaining the behavior
 #      of these two plots. What is interesting is that there is a high percentage of clouds between 40 degrees and 80 degrees north of the equator.
 ```
